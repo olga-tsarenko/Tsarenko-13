@@ -1,0 +1,55 @@
+.wrapper{
+    color: #717171;
+}
+
+h1{
+    color: $primary-title-color;
+}
+.comment{
+    color: white;
+}
+header {
+    .navbar-default .nav-head {
+        li {
+            a {
+                color: #f9fafe;
+            }
+
+            &.active {
+                a {
+                    background-color: inherit;
+                    color: #f9fafe;
+                }
+            }
+        }
+    }
+
+
+    button[type="submit"]{
+        background-color: #e7434e;
+        color: #ffffff;
+    }
+}
+
+h2{
+    color: #343435;
+}
+
+.number{
+    color: #343434;
+}
+.number-boat, .city, .country, .price, .describe-boat{
+    color: $primary-title-color;
+}
+
+.wrap-make-money{
+    background-color: #999999;
+    .title-section{
+        color: #f9fafe;
+    }
+}
+
+footer{
+    background-color: #404040;
+    color: white;
+}

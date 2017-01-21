@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    background-color: rgba(113, 113, 113, 0);
+    border-radius: 5px;
+    a {
+        transition: opacity 1s ease;
+        display: block;
+        padding: 20px 52px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #343434;
+        text-decoration: none;
+        &:hover {
+            background-color: #e7434e;
+            color: white;
+            border-radius: 5px;
+
+        }
+
+    }
+
+}
+

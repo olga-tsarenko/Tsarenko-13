@@ -1,0 +1,127 @@
+.wrapper {
+    font-family: "Open Sans", serif;
+}
+
+.title-section {
+    font-size: 72px;
+    font-weight: 700;
+
+}
+.comment {
+    font-size: 30px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+
+}
+
+header {
+    font-family: $font-stack-title;
+    li {
+        a {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &.active {
+            a {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    input[type="submit"] {
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+
+}
+
+.top-destinations {
+    .number {
+        font-size: 30px;
+        font-family: "Open Sans", serif;
+        font-weight: 700;
+    }
+    .description{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .place {
+        .city {
+            font-family: $font-stack-title;
+            font-weight: 400;
+            font-size: 30px;
+        }
+        .country {
+            font-size: 20px;
+            font-family: $font-stack-title;
+            font-weight: 400;
+        }
+    }
+
+    .number-boat{
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+
+}
+
+.title {
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: $font-stack-title;
+
+    }
+    .discribe {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.describe-boat{
+    .name{
+        font-family: $font-stack-title;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .location{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+
+footer{
+    h3{
+        font-size: 14px;
+        font-family: $font-stack-title;
+        font-weight: 700;
+    }
+    li{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    input[type='text']{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    input[type='submit']{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}

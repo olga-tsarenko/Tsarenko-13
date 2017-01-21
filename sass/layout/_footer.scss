@@ -1,0 +1,106 @@
+footer {
+    padding: 0 0 75px;
+    .red-line{
+        background: url("../images/red.png")left center repeat-x;
+        width: 100%;
+        height: 6px;
+        margin-bottom: 55px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .foot{
+        display: flex;
+        flex-flow: row wrap;
+        .top-location, .featured-boats, .contact{
+            width: 20%;
+        }
+        .subscribe{
+            width: 40%;
+        }
+        h3{
+            margin: 0 0 29px 0;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+        li{
+            line-height: 34px;
+        }
+        .subscribe ul{
+            margin-top:24px ;
+        }
+        .social{
+            li{
+                display: inline-block;
+                margin-right: 17px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 22px;
+                    background-color: #717171;
+                    i{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        form{
+            input[type='text']{
+                border: none;
+                width: 299px;
+                background-color: #ffffff;
+                border-radius: 5px;
+                padding: 10px 0 11px 22px;
+                line-height: 22px;
+            }
+            input:focus::-webkit-input-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+
+            }
+
+            input:focus::-moz-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+
+            }
+
+            .input:focus:-moz-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+            }
+
+            input:focus:-ms-input-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+            }
+
+            input:focus {
+                transition: opacity 0.3s ease;
+                border: none;
+            }
+
+            input[type='submit']{
+                background-color: #e7434e;
+                border-radius: 0 5px 5px 0;
+                width: 147px;
+                margin-left: -30px;
+                padding:10px 0 11px ;
+                border: none;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+    }
+
+
+}

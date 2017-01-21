@@ -1,0 +1,475 @@
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .width {
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .width {
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+    .title-section {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 130px;
+        .comment {
+            font-size: 26px;
+            line-height: 50px;
+        }
+    }
+
+    .wrap-make-money {
+        padding: 100px 0;
+    }
+    header {
+        padding: 35px 0 100px;
+        form input[type="text"] {
+            width: 450px;
+        }
+        form button[type="submit"] {
+            padding: 19px 0;
+            width: 150px;
+        }
+    }
+    .title .discribe {
+        padding: 0 50px;
+    }
+
+    .top-destinations {
+        .about {
+            li {
+                padding: 0;
+            }
+        }
+        .top {
+            li {
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+        }
+
+        .place {
+            .city {
+                font-size: 25px;
+            }
+            .country {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .boats {
+        li {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+    }
+
+    footer {
+        .foot {
+            text-align: center;
+            .top-location, .featured-boats, .contact, .subscribe {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .top-location, .featured-boats, .contact {
+                ul li {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+            .top-location{
+                order: 1;
+            }
+            .featured-boats{
+                order: 2;
+            }
+            .contact{
+                order: 3;
+            }
+            .subscribe{
+                order: 4;
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .width {
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+    .title-section {
+        font-size: 37px;
+        line-height: 50px;
+        padding-top: 75px;
+
+    }
+    .comment {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .wrap-make-money {
+        padding: 100px 0;
+    }
+    header {
+        padding: 35px 0 100px;
+        form input[type="text"] {
+            width: 300px;
+            border-radius: 5px;
+            padding: 15px 0 15px 10px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        form button[type="submit"] {
+            padding: 15px 0;
+            width: 150px;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .title .discribe {
+        padding: 0;
+    }
+
+    .top-destinations {
+        padding-bottom: 55px;
+        .title {
+            padding-top: 75px;
+            h2 {
+                line-height: 35px;
+            }
+        }
+        .about {
+            padding: 15px 0;
+            margin-top: -50px;
+            li {
+                padding: 0;
+            }
+
+            .number {
+                font-size: 12px;
+            }
+            .description {
+                font-size: 11px;
+            }
+        }
+        .top {
+            margin: 50px 0 0;
+            li {
+                padding: 0 10px;
+                box-sizing: border-box;
+                width: 50%;
+                &:first-child {
+                    width: 100%;
+                }
+            }
+            .number-boat {
+                top: 10px;
+                left: 15px;
+            }
+            .place {
+                left: 15px;
+                bottom: 10px;
+                .city {
+                    font-size: 20px;
+                    line-height: 23px;
+                }
+                .country {
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+            }
+
+        }
+        .button {
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+    .wrap-make-money {
+        padding: 50px 0;
+        .button {
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+
+    .wrap-boats {
+        padding: 50px 0;
+
+        .boats {
+            margin-top: 50px;
+            padding: 0 80px;
+            li {
+                width: 100%;
+                padding: 0 10px;
+                box-sizing: border-box;
+                .location{
+                    float: none;
+                }
+                .berths{
+                    float: none;
+                    margin-top: 5px;
+                }
+                .price{
+                    top: 10px;
+                    left: 15px;
+                }
+                .describe-boat {
+                    left: 15px;
+                    bottom: 10px;
+                }
+            }
+
+
+
+        }
+        .button{
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+
+    footer {
+        padding-bottom: 35px;
+        .foot {
+            text-align: center;
+            .top-location, .featured-boats, .contact, .subscribe {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .top-location, .featured-boats, .contact {
+                ul li {
+                    font-size: 12px;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+            .top-location{
+                order: 1;
+            }
+            .featured-boats{
+                order: 2;
+            }
+            .contact{
+                order: 3;
+            }
+            .subscribe{
+                order: 4;
+            }
+             form input[type='submit']{
+                 border-radius: 5px;
+                 margin: 10px auto 0;
+                 display: block;
+             }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 499px){
+    .width {
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+    .title-section {
+        font-size: 37px;
+        line-height: 50px;
+        padding-top: 75px;
+
+    }
+    .comment {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .wrap-make-money {
+        padding: 100px 0;
+    }
+    header {
+        padding: 35px 0 100px;
+        form input[type="text"] {
+            width: 300px;
+            border-radius: 5px;
+            padding: 15px 0 15px 10px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        form button[type="submit"] {
+            padding: 15px 0;
+            width: 150px;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .title .discribe {
+        padding: 0;
+    }
+
+    .top-destinations {
+        padding-bottom: 55px;
+        .title {
+            padding-top: 75px;
+            h2 {
+                line-height: 35px;
+            }
+        }
+        .about {
+            padding: 15px 0;
+            margin-top: -75px;
+            li {
+                padding: 0;
+                width: 50%;
+                &:nth-child(1), &:nth-child(2){
+                    border-bottom: 1px solid rgba(113,113,113,0.3);
+                }
+                &:nth-child(2){
+                    border-right: none;
+                }
+            }
+
+            .number {
+                font-size: 12px;
+                margin-bottom: 0;
+            }
+            .description {
+                font-size: 11px;
+            }
+        }
+        .top {
+            margin: 50px 0 0;
+            li {
+                padding: 0 10px;
+                box-sizing: border-box;
+                width: 100%;
+                &:first-child {
+                    width: 100%;
+                }
+            }
+            .number-boat {
+                top: 5px;
+                left: 60px;
+            }
+            .place {
+                left: 60px;
+                bottom: 5px;
+                .city {
+                    font-size: 20px;
+                    line-height: 23px;
+                }
+                .country {
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+            }
+
+        }
+        .button {
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+    .wrap-make-money {
+        padding: 50px 0;
+        .button {
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+
+    .wrap-boats {
+        padding: 50px 0;
+
+        .boats {
+            margin-top: 50px;
+            padding: 0 5px;
+            li {
+                width: 100%;
+                padding: 0;
+                box-sizing: border-box;
+                .location{
+                    float: none;
+                }
+                .berths{
+                    float: none;
+                    margin-top: 5px;
+                    font-size: 16px;
+                }
+                .price{
+                    top: 10px;
+                    left: 15px;
+                    font-size: 12px;
+                    padding: 5px 10px;
+                }
+                .describe-boat {
+                    left: 15px;
+                    bottom: 10px;
+                    font-size: 25px;
+                }
+            }
+
+
+
+        }
+        .button{
+            margin-top: 35px;
+            a {
+                padding: 20px 30px;
+            }
+        }
+    }
+
+    footer {
+        padding-bottom: 35px;
+        .foot {
+            text-align: center;
+            .top-location, .featured-boats, .contact, .subscribe {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .top-location, .featured-boats, .contact {
+                ul li {
+                    font-size: 12px;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+            .top-location{
+                order: 1;
+            }
+            .featured-boats{
+                order: 2;
+            }
+            .contact{
+                order: 3;
+            }
+            .subscribe{
+                order: 4;
+            }
+            form input[type='submit']{
+                border-radius: 5px;
+                margin: 10px auto 0;
+                display: block;
+            }
+        }
+    }
+
+
+}
+

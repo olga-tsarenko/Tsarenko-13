@@ -1,0 +1,134 @@
+header {
+    background: url("../images/background.png") no-repeat center;
+    background-size: cover;
+    padding: 38px 0 300px;
+    text-align: center;
+    .width {
+        padding: 0;
+    }
+    .head {
+        @include clearfix;
+        .nav-style {
+            margin: 0;
+            background-color: inherit;
+            border: none;
+        }
+        .logo {
+            float: left;
+            padding-top: 6px;
+            a {
+                display: inline-block;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .navbar-default .nav-head {
+        float: right;
+        li {
+            margin: 0 -10px;
+            a {
+                border: 1px solid rgba(249, 250, 254, 0);
+                padding: 13px 39px;
+                line-height: 16px;
+            }
+
+            &.active {
+                a {
+                    border: 1px solid rgba(249, 250, 254, 0);
+                }
+            }
+        }
+
+        li {
+            a:hover, a:focus {
+                border: 1px solid rgba(249, 250, 254, 1);
+                color: #f9fafe;
+                border-radius: 5px;
+            }
+            &.active {
+                a:hover {
+                    color: #f9fafe;
+                    background-color: inherit;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+    }
+
+    form {
+        padding-top: 90px;
+        input[type="text"] {
+            padding: 19px 0 19px 30px;
+            text-transform: uppercase;
+            width: 570px;
+            line-height: 22px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+        button[type="submit"] {
+            text-transform: uppercase;
+            width: 200px;
+            border-radius: 0 5px 5px 0;
+            border: none;
+            padding: 19px 41px;
+            line-height: 22px;
+            margin-left: -5px;
+            display: inline-block;
+            &:before {
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url("../images/sailboat-kopia.png") no-repeat center;
+                background-size: cover;
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+        input:focus::-webkit-input-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: none;
+
+        }
+
+        input:focus::-moz-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: none;
+
+        }
+
+        .input:focus:-moz-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: none;
+        }
+
+        input:focus:-ms-input-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border: none;
+        }
+
+        input:focus {
+            transition: opacity 0.3s ease;
+            border: none;
+        }
+    }
+
+}
+
+.title-section {
+    text-transform: uppercase;
+    line-height: 72px;
+    padding-top: 205px;
+    margin: 0 0 15px 0;
+}
+
+.comment {
+    text-transform: uppercase;
+    line-height: 30px;
+}
