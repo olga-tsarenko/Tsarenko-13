@@ -33,6 +33,11 @@
             padding: 19px 0;
             width: 150px;
         }
+        .head {
+            .logo {
+                padding-left: 5px;
+            }
+        }
     }
     .title .discribe {
         padding: 0 50px;
@@ -131,6 +136,11 @@
             border-radius: 5px;
             display: block;
             margin: 0 auto;
+        }
+        .head {
+            .logo {
+                padding-left: 5px;
+            }
         }
     }
     .title .discribe {
@@ -278,7 +288,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 499px){
+@media (min-width: 320px) and (max-width: 500px){
     .width {
         max-width: 1200px;
         padding: 0 10px;
@@ -312,6 +322,11 @@
             border-radius: 5px;
             display: block;
             margin: 0 auto;
+        }
+        .head {
+            .logo {
+                padding-left: 5px;
+            }
         }
     }
     .title .discribe {
@@ -350,21 +365,21 @@
         }
         .top {
             margin: 50px 0 0;
+            flex-flow: column;
+            align-items: center;
+
             li {
                 padding: 0 10px;
                 box-sizing: border-box;
-                width: 100%;
+                width: 80%;
                 &:first-child {
                     width: 100%;
                 }
             }
-            .number-boat {
-                top: 5px;
-                left: 60px;
+            .number-boat{
+                top: 10px;
             }
             .place {
-                left: 60px;
-                bottom: 5px;
                 .city {
                     font-size: 20px;
                     line-height: 23px;
